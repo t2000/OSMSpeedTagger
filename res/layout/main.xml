@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginTop="10px" android:layout_marginBottom="10px"><Button android:layout_width="wrap_content" android:id="@+id/Speed7" android:minHeight="60px" android:layout_weight="1" android:layout_margin="5px" android:background="@drawable/sp7" android:onClick="buttonHandler" android:layout_height="fill_parent"></Button>
+<Button android:layout_width="wrap_content" android:id="@+id/Speed30" android:layout_height="fill_parent" android:layout_weight="1" android:layout_margin="5px" android:background="@drawable/sp30" android:onClick="buttonHandler"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/Speed40" android:layout_weight="1" android:layout_margin="5px" android:background="@drawable/sp40" android:onClick="buttonHandler"></Button>
+<Button android:layout_width="wrap_content" android:id="@+id/Speed50" android:layout_height="fill_parent" android:layout_weight="1" android:layout_margin="5px" android:background="@drawable/sp50" android:onClick="buttonHandler"></Button>
+<Button android:layout_width="wrap_content" android:id="@+id/Speed60" android:layout_height="fill_parent" android:layout_weight="1" android:layout_margin="5px" android:background="@drawable/sp60" android:onClick="buttonHandler"></Button>
+</TableRow><TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="60px" android:layout_weight="1" android:layout_marginBottom="10px" android:layout_marginTop="10px"><Button android:layout_width="wrap_content" android:id="@+id/Speed70" android:layout_height="fill_parent" android:layout_weight="1" android:layout_margin="5px" android:background="@drawable/sp70" android:onClick="buttonHandler"></Button>
+<Button android:layout_width="wrap_content" android:id="@+id/Speed80" android:layout_height="fill_parent" android:layout_weight="1" android:layout_margin="5px" android:background="@drawable/sp80" android:onClick="buttonHandler"></Button>
+<Button android:layout_width="wrap_content" android:id="@+id/Speed100" android:layout_height="fill_parent" android:layout_weight="1" android:layout_margin="5px" android:background="@drawable/sp100" android:onClick="buttonHandler"></Button>
+<Button android:layout_width="wrap_content" android:id="@+id/Speed120" android:layout_height="fill_parent" android:layout_weight="1" android:layout_margin="5px" android:background="@drawable/sp120" android:onClick="buttonHandler"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/Speed130" android:layout_weight="1" android:layout_margin="5px" android:background="@drawable/sp130" android:onClick="buttonHandler"></Button>
+
+</TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/StatusView" android:text="Status" android:layout_span="5"></TextView>
+</TableRow>
+
+</TableLayout>
